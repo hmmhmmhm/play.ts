@@ -1,0 +1,21 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "clean": "rm -rf ./dist/*.*"
+  },
+  "main": "./dist/index.js",
+  "type": "./dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1"
+  }
+}
